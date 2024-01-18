@@ -9,12 +9,12 @@ video_capture = cv2.VideoCapture(0)
 
 # Load known faces
 amoghs_image = face_recognition.load_image_file("faces/amogh.jpg")
-harry_encoding = face_recognition.face_encodings(amoghs_image)[0]
+amogh_encoding = face_recognition.face_encodings(amoghs_image)[0]
 
 akshay_image = face_recognition.load_image_file("faces/akshay.jpg")
 akshay_encoding = face_recognition.face_encodings(akshay_image)[0]
 
-known_face_encodings = [harry_encoding, akshay_encoding]
+known_face_encodings = [amogh_encoding, akshay_encoding]
 known_face_names = ["Amogh", "Akshay"]
 
 # List of expected students
