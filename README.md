@@ -1,4 +1,3 @@
-```markdown
 # Face Recognition Attendance System
 
 This repository contains code for a simple face recognition attendance system using Python and OpenCV.
@@ -57,4 +56,3 @@ Feel free to contribute to this project by submitting bug fixes, enhancements, o
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
